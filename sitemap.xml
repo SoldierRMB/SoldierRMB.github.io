@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://soldierrmb.github.io/tags/blog/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://soldierrmb.github.io/posts/hugo/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://soldierrmb.github.io/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://soldierrmb.github.io/tags/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://soldierrmb.github.io/posts/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://soldierrmb.github.io/categories/</loc>
   </url><url>
     <loc>https://soldierrmb.github.io/archives/</loc>
   </url><url>
     <loc>https://soldierrmb.github.io/search/</loc>
-  </url><url>
-    <loc>https://soldierrmb.github.io/posts/</loc>
   </url>
 </urlset>
