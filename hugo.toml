@@ -1,0 +1,154 @@
+baseURL = "https://soldierrmb.github.io"
+languageCode = "zh-CN"
+title = "SoldierRMB's Blog"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses = true
+
+[[module.imports]]
+path = "github.com/adityatelange/hugo-PaperMod"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+title = "SoldierRMB's Blog"
+description = "软妹币战士的个人博客 - 分享技术，也是分享热爱"
+keywords = ["软妹币战士", "博客", "Blog", "Hugo", "PaperMod"]
+author = "软妹币战士"
+# author = ["Me", "You"] # multiple authors
+images = ["<link or path of image for opengraph, twitter-cards>"]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto" # dark, light
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.assets]
+disableHLJS = true # to disable highlight.js
+# disableFingerprinting = true
+# favicon = "<link / abs url>"
+# favicon16x16 = "<link / abs url>"
+# favicon32x32 = "<link / abs url>"
+# apple_touch_icon = "<link / abs url>"
+# safari_pinned_tab = "<link / abs url>"
+
+[params.label]
+text = "SoldierRMB's Blog"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
+
+# profile-mode
+[params.profileMode]
+enabled = false # needs to be explicitly set
+title = "SoldierRMB's Blog"
+subtitle = "分享技术，也是分享热爱。"
+imageUrl = "<img location>"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+# home-info mode
+[params.homeInfoParams]
+Title = "🔥 技术与热爱同在"
+Content = "分享技术，也是分享热爱。"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/SoldierRMB"
+
+[params.analytics.google]
+SiteVerificationTag = "SoldierRMB's Blog"
+
+[params.analytics.bing]
+SiteVerificationTag = "SoldierRMB's Blog"
+
+[params.analytics.yandex]
+SiteVerificationTag = "SoldierRMB's Blog"
+
+[params.cover]
+hidden = false # hide everywhere but not in structured data
+hiddenInList = false # hide on list pages and home
+hiddenInSingle = false # hide on single page
+
+# [params.editPost]
+# URL = "https://github.com/<path_to_repo>/content"
+# Text = "Suggest Changes" # edit text
+# appendFilePath = true # to append file path to Edit link
+
+# for search
+# https://fusejs.io/api/options.html
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+limit = 10 # refer: https://www.fusejs.io/api/methods.html#search
+keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[languages.zh]
+languageName = "中文"
+weight = 1
+
+[[menu.main]]
+name = "归档"
+url = "/archives/"
+weight = 5
+
+[[menu.main]]
+name = "搜索"
+url = "/search/"
+weight = 10
+
+[[menu.main]]
+name = "分类"
+url = "/categories/"
+weight = 15
+
+[[menu.main]]
+name = "标签"
+url = "/tags/"
+weight = 20
+
+[markup.highlight]
+# noClasses = false
+# anchorLineNos = true
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "monokai"
+
+[markup.goldmark.renderer]
+unsafe = true
