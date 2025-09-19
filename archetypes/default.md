@@ -3,6 +3,7 @@ title: Title
 date: {{date}}
 tags: [Blog]
 author: SoldierRMB
+share: false
 showToc: true
 TocOpen: false
 draft: false
