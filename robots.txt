@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://soldierrmb.github.io/sitemap.xml
+Sitemap: https://blog.soldierrmb.top/sitemap.xml

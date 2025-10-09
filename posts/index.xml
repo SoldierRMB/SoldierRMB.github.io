@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文章 on SoldierRMB&#39;s Blog</title>
-    <link>https://soldierrmb.github.io/posts/</link>
+    <link>https://blog.soldierrmb.top/posts/</link>
     <description>Recent content in 文章 on SoldierRMB&#39;s Blog</description>
     <image>
       <title>SoldierRMB&#39;s Blog</title>
-      <url>https://soldierrmb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://soldierrmb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog.soldierrmb.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.soldierrmb.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://soldierrmb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.soldierrmb.top/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo建站搭配PaperMod主题一站式教程</title>
-      <link>https://soldierrmb.github.io/posts/hugo/</link>
+      <link>https://blog.soldierrmb.top/posts/hugo/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://soldierrmb.github.io/posts/hugo/</guid>
+      <guid>https://blog.soldierrmb.top/posts/hugo/</guid>
       <description>使用Hugo搭建博客教程</description>
     </item>
   </channel>
