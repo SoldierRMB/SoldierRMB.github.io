@@ -4,7 +4,15 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
+.obsidian/
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/hotkeys.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+!.obsidian/themes/
+!.obsidian/snippets/
+!.obsidian/plugins/
 .quartz-cache
 private/
 .replit
